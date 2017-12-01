@@ -1,0 +1,44 @@
+{
+  "name": "quoia-starter",
+  "version": "1.0.0",
+  "description": "A starter project using Quoia.",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "dev": "node quoia.build.js && gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopherwk210/quoia-starter.git"
+  },
+  "keywords": [
+    "quoia",
+    "framework",
+    "starter",
+    "build",
+    "generator"
+  ],
+  "author": "Chris Anselmo <christopherwk210@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christopherwk210/quoia-starter/issues"
+  },
+  "homepage": "https://github.com/christopherwk210/quoia-starter#readme",
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 8.5"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "handlebars": "^4.0.11",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.7.2",
+    "popper.js": "^1.12.9",
+    "quoia": "^1.4.22"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "nodemon": "^1.12.1"
+  }
+}
